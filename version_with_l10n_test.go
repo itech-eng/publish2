@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/jinzhu/gorm"
-	"github.com/qor/l10n"
-	"github.com/qor/publish2"
+	"github.com/itech-eng/l10n"
+	"github.com/itech-eng/publish2"
 )
 
 var dbGlobal, dbCN, dbEN *gorm.DB

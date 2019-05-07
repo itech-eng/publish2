@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/jinzhu/gorm"
-	"github.com/qor/publish2"
+	"github.com/itech-eng/publish2"
 )
 
 type Wiki struct {

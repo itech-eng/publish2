@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"html/template"
 
-	"github.com/qor/admin"
-	"github.com/qor/qor"
-	"github.com/qor/roles"
+	"github.com/itech-eng/admin"
+	"github.com/itech-eng/qor"
+	"github.com/itech-eng/roles"
 )
 
 type controller struct {

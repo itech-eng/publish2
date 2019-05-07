@@ -7,14 +7,14 @@ import (
 	"regexp"
 
 	"github.com/jinzhu/gorm"
-	"github.com/qor/admin"
-	"github.com/qor/qor"
-	"github.com/qor/qor/resource"
-	"github.com/qor/qor/utils"
+	"github.com/itech-eng/admin"
+	"github.com/itech-eng/qor"
+	"github.com/itech-eng/qor/resource"
+	"github.com/itech-eng/qor/utils"
 )
 
 func init() {
-	admin.RegisterViewPath("github.com/qor/publish2/views")
+	admin.RegisterViewPath("github.com/itech-eng/publish2/views")
 }
 
 func (SharedVersion) ConfigureQorResource(res resource.Resourcer) {
